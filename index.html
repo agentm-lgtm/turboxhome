@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurboxHome Catering Services - Professional Event Catering Solutions</title>
+    <meta name="description" content="TurboxHome offers professional catering services for corporate events, weddings, and private gatherings. Discover our diverse menu options and exceptional service quality. Click here to continue exploring our offerings.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        .navbar_kx7m {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .nav_container_kx7m {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo_kx7m {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #e74c3c;
+            text-decoration: none;
+        }
+
+        .nav_links_kx7m {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .nav_links_kx7m a {
+            color: #ecf0f1;
+            text-decoration: none;
+            transition: color 0.3s;
+            font-size: 0.95rem;
+        }
+
+        .nav_links_kx7m a:hover {
+            color: #e74c3c;
+        }
+
+        .hero_section_kx7m {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero_content_kx7m {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero_content_kx7m h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero_content_kx7m p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+        }
+
+        .cta_button_kx7m {
+            display: inline-block;
+            background-color: #f39c12;
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            cursor: pointer;
+            border: none;
+            font-size: 1rem;
+        }
+
+        .cta_button_kx7m:hover {
+            background-color: #e67e22;
+        }
+
+        .container_kx7m {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .section_kx7m {
+            padding: 60px 20px;
+            margin: 20px 0;
+        }
+
+        .section_title_kx7m {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .services_grid_kx7m {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .service_card_kx7m {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .service_card_kx7m:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .service_card_kx7m h3 {
+            color: #e74c3c;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .service_card_kx7m p {
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .about_section_kx7m {
+            background-color: #ecf0f1;
+        }
+
+        .about_content_kx7m {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .about_text_kx7m h2 {
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        .about_text_kx7m p {
+            margin-bottom: 1rem;
+            color: #555;
+            line-height: 1.9;
+        }
+
+        .about_image_kx7m img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .history_block_kx7m {
+            background: white;
+            padding: 2rem;
+            margin: 1.5rem 0;
+            border-left: 5px solid #e74c3c;
+            border-radius: 4px;
+        }
+
+        .history_block_kx7m h4 {
+            color: #e74c3c;
+            margin-bottom: 0.5rem;
+        }
+
+        .history_block_kx7m p {
+            color: #666;
+        }
+
+        .reviews_section_kx7m {
+            background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);
+            color: white;
+        }
+
+        .review_card_kx7m {
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            margin: 1.5rem 0;
+            border-radius: 8px;
+            border-left: 4px solid #f39c12;
+        }
+
+        .review_author_kx7m {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .review_rating_kx7m {
+            color: #f39c12;
+            margin-bottom: 1rem;
+        }
+
+        .menu_section_kx7m {
+            background-color: #f9f9f9;
+        }
+
+        .menu_grid_kx7m {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .menu_item_kx7m {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .menu_item_kx7m h4 {
+            color: #e74c3c;
+            margin-bottom: 0.5rem;
+        }
+
+        .menu_item_kx7m p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        .features_section_kx7m {
+            background: white;
+        }
+
+        .features_grid_kx7m {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature_box_kx7m {
+            text-align: center;
+            padding: 2rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border-top: 3px solid #e74c3c;
+        }
+
+        .feature_box_kx7m h4 {
+            color: #2c3e50;
+            margin: 1rem 0;
+        }
+
+        .footer_kx7m {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 3rem 20px;
+            margin-top: 3rem;
+        }
+
+        .footer_content_kx7m {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .footer_section_kx7m h4 {
+            color: #e74c3c;
+            margin-bottom: 1rem;
+        }
+
+        .footer_section_kx7m p, .footer_section_kx7m a {
+            color: #bdc3c7;
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .footer_section_kx7m a:hover {
+            color: #e74c3c;
+        }
+
+        .phone_link_kx7m {
+            color: #f39c12;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .modal_kx7m {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .modal_content_kx7m {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 2rem;
+            border: 1px solid #888;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 8px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .close_kx7m {
+            color: #aaa;
+            float: right;
+            font-size: 2rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close_kx7m:hover {
+            color: #000;
+        }
+
+        .modal_content_kx7m h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .modal_content_kx7m p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .modal_content_kx7m h3 {
+            color: #e74c3c;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .modal_content_kx7m ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .modal_content_kx7m li {
+            margin-bottom: 0.5rem;
+        }
+
+        .gallery_section_kx7m {
+            background: #ecf0f1;
+        }
+
+        .gallery_grid_kx7m {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .gallery_item_kx7m {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transition: transform 0.3s;
+        }
+
+        .gallery_item_kx7m:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery_item_kx7m img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .testimonial_section_kx7m {
+            background: white;
+        }
+
+        .testimonial_grid_kx7m {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .testimonial_card_kx7m {
+            background: #f9f9f9;
+            padding: 2rem;
+            border-radius: 8px;
+            border-left: 4px solid #e74c3c;
+        }
+
+        .testimonial_card_kx7m p {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial_author_kx7m {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .process_section_kx7m {
+            background: linear-gradient(135deg, #ecf0f1 0%, #d5dbdb 100%);
+        }
+
+        .process_steps_kx7m {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .process_step_kx7m {
+            background: white;
+            padding: 2rem;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        .step_number_kx7m {
+            background: #e74c3c;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0 auto 1rem;
+        }
+
+        .process_step_kx7m h4 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+
+        .process_step_kx7m p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        .cta_section_kx7m {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+            text-align: center;
+            padding: 3rem 20px;
+            border-radius: 8px;
+            margin: 3rem 0;
+        }
+
+        .cta_section_kx7m h2 {
+            margin-bottom: 1rem;
+        }
+
+        .cta_section_kx7m p {
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
+        .stats_section_kx7m {
+            background: #2c3e50;
+            color: white;
+        }
+
+        .stats_grid_kx7m {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .stat_box_kx7m {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .stat_number_kx7m {
+            font-size: 2.5rem;
+            color: #f39c12;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat_label_kx7m {
+            color: #bdc3c7;
+        }
+
+        @media (max-width: 768px) {
+            .nav_links_kx7m {
+                gap: 1rem;
+                font-size: 0.85rem;
+            }
+
+            .hero_content_kx7m h1 {
+                font-size: 2rem;
+            }
+
+            .about_content_kx7m {
+                grid-template-columns: 1fr;
+            }
+
+            .section_title_kx7m {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar_kx7m">
+        <div class="nav_container_kx7m">
+            <a href="#home" class="logo_kx7m">TurboxHome Catering</a>
+            <ul class="nav_links_kx7m">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#menu">Menu Options</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#process">Our Process</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" onclick="openModal('privacyModal'); return false;">Privacy</a></li>
+                <li><a href="#" onclick="openModal('termsModal'); return false;">Terms</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero_section_kx7m" id="home">
+        <div class="hero_content_kx7m">
+            <h1>Professional Catering Services for Every Occasion</h1>
+            <p>Transform your events with exceptional food and impeccable service. From intimate gatherings to large corporate functions, we deliver excellence every time. Click here to continue and discover what makes us different.</p>
+            <button class="cta_button_kx7m" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get Started Today</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section_kx7m" id="services">
+        <div class="container_kx7m">
+            <h2 class="section_title_kx7m">Our Catering Services</h2>
+            <div class="services_grid_kx7m">
+                <div class="service_card_kx7m">
+                    <h3>Corporate Events</h3>
+                    <p>Impress your clients and employees with professionally catered corporate functions. We handle everything from intimate board meetings to large conference catering with precision and attention to detail. Our team ensures seamless service that reflects your company's standards.</p>
+                </div>
+                <div class="service_card_kx7m">
+                    <h3>Wedding Receptions</h3>
+                    <p>Make your special day unforgettable with our comprehensive wedding catering services. We work closely with you to create customized menus that reflect your vision and preferences. Our experienced staff ensures your guests enjoy an exceptional dining experience throughout your celebration.</p>
+                </div>
+                <div class="service_card_kx7m">
+                    <h3>Private Parties</h3>
+                    <p>Celebrate life's moments with friends and family through our private party catering. Whether it's a birthday, anniversary, or milestone celebration, we provide flexible menu options and attentive service to make your gathering memorable and stress-free.</p>
+                </div>
+                <div class="service_card_kx7m">
+                    <h3>Social Gatherings</h3>
+                    <p>From casual get-togethers to formal dinner parties, our social gathering catering adapts to your needs. We offer diverse menu selections and can accommodate various dietary requirements, ensuring all your guests feel welcomed and satisfied.</p>
+                </div>
+                <div class="service_card_kx7m">
+                    <h3>Conference Catering</h3>
+                    <p>Keep your conference attendees energized with our professional conference catering services. We provide breakfast options, lunch solutions, and refreshment breaks designed to maintain productivity and engagement throughout your event.</p>
+                </div>
+                <div class="service_card_kx7m">
+                    <h3>Outdoor Events</h3>
+                    <p>Bring culinary excellence to outdoor venues with our specialized outdoor catering services. We manage all logistics including setup, service, and cleanup, allowing you to focus on enjoying your event in any weather condition.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section_kx7m about_section_kx7m" id="about">
+        <div class="container_kx7m">
+            <h2 class="section_title_kx7m">About TurboxHome Catering</h2>
+            <div class="about_content_kx7m">
+                <div class="about_text_kx7m">
+                    <h2>Our Story and Commitment</h2>
+                    <p>TurboxHome Catering was founded with a simple mission: to provide exceptional catering services that exceed expectations. Our journey began in 2008 when our founder recognized the need for reliable, high-quality catering that truly understands client needs.</p>
+                    <p>Over the years, we've grown from a small operation to a respected catering company serving hundreds of events annually. Our success is built on three core principles: quality ingredients, professional service, and genuine care for our clients' satisfaction.</p>
+                    <p>We believe that great food brings people together. Whether you're hosting a business meeting or celebrating a personal milestone, we're committed to creating memorable culinary experiences. Our team of experienced chefs and service professionals work tirelessly to ensure every detail is perfect.</p>
+                    <button class="cta_button_kx7m" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Click here to continue with a consultation</button>
+                </div>
+                <div class="about_image_kx7m">
+                    <img src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Professional catering team preparing food">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business History -->
+    <section class="section_kx7m">
+        <div class="container_kx7m">
+            <h2 class="section_title_kx7m">Our Journey and Milestones</h2>
+            
+            <div class="history_block_kx7m">
+                <h4>2008 - The Beginning</h4>
+                <p>TurboxHome Catering was established with a vision to revolutionize the catering industry. Our founder, with over 15 years of culinary experience, opened our first kitchen facility with just three staff members. We started by catering small local events and quickly built a reputation for reliability and quality.</p>
+            </div>
+
+            <div class="history_block_kx7m">
+                <h4>2010 - First Expansion</h4>
+                <p>Due to growing demand, we expanded our kitchen facilities and hired additional chefs and service staff. This year marked our first corporate contract with a major local business, establishing our presence in the corporate catering market. We also introduced our signature menu collections.</p>
+            </div>
+
+            <div class="history_block_kx7m">
+                <h4>2013 - Regional Recognition</h4>
+                <p>TurboxHome Catering received recognition from regional business publications for our innovative approach to event catering. We expanded our service area and began catering events for regional conferences and large-scale celebrations. Our team grew to over 25 dedicated professionals.</p>
+            </div>
+
+            <div class="history_block_kx7m">
+                <h4>2016 - Sustainability Initiative</h4>
+                <p>We implemented comprehensive sustainability practices, including sourcing from local farms and reducing food waste. This commitment to environmental responsibility became a core part of our brand identity and attracted clients who share our values.</p>
+            </div>
+
+            <div class="history_block_kx7m">
+                <h4>2019 - Technology Integration</h4>
+                <p>We invested in modern catering management software and online booking systems to improve client experience. This technological advancement allowed us to streamline operations and provide better service to our growing client base.</p>
+            </div>
+
+            <div class="history_block_kx7m">
+                <h4>2022 - Present Day Excellence</h4>
+                <p>Today, TurboxHome Catering operates with a team of 40+ professionals and has catered over 2,000 events. We continue to innovate our menu offerings, invest in staff training, and maintain our commitment to exceptional service quality that has defined our brand for over a decade.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section_kx7m menu_section_kx7m" id="menu">
+        <div class="container_kx7m">
+            <h2 class="section_title_kx7m">Our Menu Collections</h2>
+            <div class="menu_grid_kx7m">
+                <div class="menu_item_kx7m">
+                    <h4>Classic Elegance Collection</h4>
+                    <p>Traditional favorites prepared with contemporary techniques. Features roasted meats, seasonal vegetables, artisan breads, and refined sides that appeal to diverse palates.</p>
+                </div>
+                <div class="menu_item_kx7m">
+                    <h4>International Fusion</h4>
+                    <p>Explore global flavors with our international menu featuring Mediterranean, Asian, and Latin American inspired dishes. Perfect for clients seeking culinary adventure and variety.</p>
+                </div>
+                <div class="menu_item_kx7m">
+                    <h4>Vegetarian & Vegan Options</h4>
+                    <p>Thoughtfully crafted plant-based dishes that satisfy all guests. From hearty vegetable medleys to innovative vegan proteins, we ensure no one feels excluded from the dining experience.</p>
+                </div>
+                <div class="menu_item_kx7m">
+                    <h4>Light & Fresh Selection</h4>
+                    <p>Health-conscious options featuring grilled proteins, fresh salads, and light preparations. Ideal for daytime events and clients focused on nutritional balance.</p>
+                </div>
+                <div class="menu_item_kx7m">
+                    <h4>Comfort Food Favorites</h4>
+                    <p>Warm, satisfying dishes that bring people together. Includes slow-cooked specialties, homestyle preparations, and crowd-pleasing comfort food classics.</p>
+                </div>
+                <div class="menu_item_kx7m">
+                    <h4>Appetizer & Cocktail Hour</h4>
+                    <p>Elegant passed hors d'oeuvres and stationary displays perfect for receptions. Includes hot and cold options designed for easy mingling and conversation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section_kx7m features_section_kx7m">
+        <div class="container_kx7m">
+            <h2 class="section_title_kx7m">Why Choose TurboxHome Catering</h2>
+            <div class="features_grid_kx7m">
+                <div class="feature_box_kx7m">
+                    <h4>Expert Chefs</h4>
+                    <p>Our culinary team brings decades of combined experience and passion for creating exceptional dishes that delight your guests.</p>
+                </div>
+                <div class="feature_box_kx7m">
+                    <h4>Quality Ingredients</h4>
+                    <p>We source the finest ingredients from trusted suppliers, prioritizing freshness and quality in every dish we prepare.</p>
+                </div>
+                <div class="feature_box_kx7m">
+                    <h4>Professional Service</h4>
+                    <p>Our trained service staff ensures smooth execution of your event with attention to detail and genuine hospitality.</p>
+                </div>
+                <div class="feature_box_kx7m">
+                    <h4>Customization</h4>
+                    <p>Every menu is tailored to your specific needs, preferences, and dietary requirements. We work with you to create the perfect culinary experience.</p>
+                </div>
+                <div class="feature_box_kx7m">
+                    <h4>Flexible Options</h4>
+                    <p>From intimate dinners to large-scale events, we scale our services to match your event size and requirements perfectly.</p>
+                </div>
+                <div class="feature_box_kx7m">
+                    <h4>Reliability</h4>
+                    <p>With over a decade of experience, we've earned a reputation for consistently delivering on our promises and exceeding expectations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section_kx7m process_section_kx7m" id="process">
+        <div class="container_kx7m">
+            <h2 class="section_title_kx7m">Our Catering Process</h2>
+            <div class="process_steps_kx7m">
+                <div class="process_step_kx7m">
+                    <div class="step_number_kx7m">1</div>
+                    <h4>Initial Consultation</h4>
+                    <p>We meet with you to understand your event vision, guest count, dietary needs, and budget. This conversation forms the foundation of your perfect catering experience.</p>
+                </div>
+                <div class="process_step_kx7m">
+                    <div class="step_number_kx7m">2</div>
+                    <h4>Menu Planning</h4>
+                    <p>Our chefs work with you to design a customized menu that reflects your preferences and impresses your guests. We offer tastings to ensure your satisfaction.</p>
+                </div>
+                <div class="process_step_kx7m">
+                    <div class="step_number_kx7m">3</div>
+                    <h4>Logistics Coordination</h4>
+                    <p>We handle all details including delivery timing, setup requirements, service style, and any special requests. Our team ensures everything is perfectly coordinated.</p>
+                </div>
+                <div class="process_step_kx7m">
+                    <div class="step_number_kx7m">4</div>
+                    <h4>Flawless Execution</h4>
+                    <p>On event day, our professional team arrives early to set up and prepare. We manage service seamlessly while remaining attentive to your needs throughout the event.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section_kx7m gallery_section_kx7m">
+        <div class="container_kx7m">
+            <h2 class="section_title_kx7m">Event Gallery</h2>
+            <div class="gallery_grid_kx7m">
+                <div class="gallery_item_kx7m">
+                    <img src="https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Elegant plated dinner service">
+                </div>
+                <div class="gallery_item_kx7m">
+                    <img src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Professional food preparation">
+                </div>
+                <div class="gallery_item_kx7m">
+                    <img src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Catering team in action">
+                </div>
+                <div class="gallery_item_kx7m">
+                    <img src="https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beautifully arranged buffet">
+                </div>
+                <div class="gallery_item_kx7m">
+                    <img src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gourmet food presentation">
+                </div>
+                <div class="gallery_item_kx7m">
+                    <img src="https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Event service excellence">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="section_kx7m stats_section_kx7m">
+        <div class="container_kx7m">
+            <h2 class="section_title_kx7m">By The Numbers</h2>
+            <div class="stats_grid_kx7m">
+                <div class="stat_box_kx7m">
+                    <div class="stat_number_kx7m">2000+</div>
+                    <div class="stat_label_kx7m">Events Catered</div>
+                </div>
+                <div class="stat_box_kx7m">
+                    <div class="stat_number_kx7m">40+</div>
+                    <div class="stat_label_kx7m">Professional Staff</div>
+                </div>
+                <div class="stat_box_kx7m">
+                    <div class="stat_number_kx7m">15+</div>
+                    <div class="stat_label_kx7m">Years Experience</div>
+                </div>
+                <div class="stat_box_kx7m">
+                    <div class="stat_number_kx7m">98%</div>
+                    <div class="stat_label_kx7m">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section_kx7m reviews_section_kx7m" id="reviews">
+        <div class="container_kx7m">
+            <h2 class="section_title_kx7m">What Our Clients Say</h2>
+            
+            <div class="review_card_kx7m">
+                <div class="review_rating_kx7m">★★★★★</div>
+                <p>"TurboxHome Catering transformed our corporate event into an unforgettable experience. The food was exceptional, and the service team was incredibly professional and attentive. We've already booked them for our next event!"</p>
+                <div class="review_author_kx7m">- Margaret Richardson, Corporate Events Manager</div>
+            </div>
+
+            <div class="review_card_kx7m">
+                <div class="review_rating_kx7m">★★★★★</div>
+                <p>"Our wedding day was perfect, and TurboxHome Catering played a huge role in that. From the initial consultation to the final toast, they handled everything beautifully. Our guests are still talking about the food!"</p>
+                <div class="review_author_kx7m">- James & Sarah Mitchell, Wedding Clients</div>
+            </div>
+
+            <div class="review_card_kx7m">
+                <div class="review_rating_kx7m">★★★★★</div>
+                <p>"We needed catering for a 200-person conference, and TurboxHome delivered beyond our expectations. The variety of menu options, professional service, and attention to detail made our event seamless and successful."</p>
+                <div class="review_author_kx7m">- David Chen, Conference Organizer</div>
+            </div>
+
+            <div class="review_card_kx7m">
+                <div class="review_rating_kx7m">★★★★★</div>
+                <p>"For our 25th anniversary party, TurboxHome created a customized menu that reflected our journey together. The presentation was beautiful, and every dish was delicious. Highly recommended!"</p>
+                <div class="review_author_kx7m">- Patricia & Robert Johnson, Private Event Clients</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section_kx7m testimonial_section_kx7m">
+        <div class="container_kx7m">
+            <h2 class="section_title_kx7m">Client Testimonials</h2>
+            <div class="testimonial_grid_kx7m">
+                <div class="testimonial_card_kx7m">
+                    <p>"The team's flexibility and willingness to accommodate our dietary restrictions was impressive. Everyone at our party felt included and satisfied with the meal options."</p>
+                    <div class="testimonial_author_kx7m">Jennifer Williams</div>
+                </div>
+                <div class="testimonial_card_kx7m">
+                    <p>"Professional, reliable, and absolutely delicious. TurboxHome Catering has become our go-to choice for all company events. They never disappoint."</p>
+                    <div class="testimonial_author_kx7m">Thomas Anderson</div>
+                </div>
+                <div class="testimonial_card_kx7m">
+                    <p>"From the moment we contacted them, the communication was clear and helpful. They made the entire process stress-free and delivered an amazing event."</p>
+                    <div class="testimonial_author_kx7m">Lisa Thompson</div>
+                </div>
+                <div class="testimonial_card_kx7m">
+                    <p>"The quality of ingredients and attention to presentation really sets TurboxHome apart. Our guests were impressed with every aspect of the catering."</p>
+                    <div class="testimonial_author_kx7m">Michael Rodriguez</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section_kx7m">
+        <div class="container_kx7m">
+            <div class="cta_section_kx7m">
+                <h2>Ready to Plan Your Perfect Event?</h2>
+                <p>Let TurboxHome Catering bring your culinary vision to life. Contact us today for a personalized consultation and menu tasting.</p>
+                <button class="cta_button_kx7m" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Click here to continue booking your event</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section_kx7m" id="contact">
+        <div class="container_kx7m">
+            <h2 class="section_title_kx7m">Get In Touch</h2>
+            <div class="services_grid_kx7m">
+                <div class="service_card_kx7m">
+                    <h3>Contact Information</h3>
+                    <p><strong>Phone:</strong> <a href="tel:+15551234567" class="phone_link_kx7m">+1 (555) 123-4567</a></p>
+                    <p><strong>Email:</strong> info@turboxhomecatering.com</p>
+                    <p><strong>Address:</strong> 1247 Culinary Lane, Food District, FD 45678</p>
+                    <p><strong>Hours:</strong> Monday - Friday: 9AM - 6PM | Saturday - Sunday: 10AM - 4PM</p>
+                </div>
+                <div class="service_card_kx7m">
+                    <h3>Quick Response</h3>
+                    <p>We typically respond to inquiries within 2 hours during business hours. For urgent requests, please call us directly. Our team is ready to discuss your event requirements and provide personalized recommendations.</p>
+                </div>
+                <div class="service_card_kx7m">
+                    <h3>Service Area</h3>
+                    <p>We proudly serve the entire metropolitan region and surrounding areas within a 50-mile radius. For events outside our standard service area, please contact us to discuss special arrangements and logistics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer_kx7m">
+        <div class="footer_content_kx7m">
+            <div class="footer_section_kx7m">
+                <h4>TurboxHome Catering</h4>
+                <p>Professional catering services for all occasions. Creating memorable culinary experiences since 2008.</p>
+                <p><strong>Main Office:</strong> 1247 Culinary Lane, Food District, FD 45678</p>
+            </div>
+            <div class="footer_section_kx7m">
+                <h4>Quick Links</h4>
+                <a href="#services">Services</a>
+                <a href="#menu">Menu Options</a>
+                <a href="#about">About Us</a>
+                <a href="#process">Our Process</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer_section_kx7m">
+                <h4>Contact Us</h4>
+                <p><strong>Phone:</strong> <a href="tel:+15551234567" class="phone_link_kx7m">+1 (555) 123-4567</a></p>
+                <p><strong>Email:</strong> <a href="mailto:info@turboxhomecatering.com">info@turboxhomecatering.com</a></p>
+                <p><strong>Emergency Line:</strong> <a href="tel:+15559876543" class="phone_link_kx7m">+1 (555) 987-6543</a></p>
+                <p><strong>Hours:</strong> Mon-Fri 9AM-6PM, Sat-Sun 10AM-4PM</p>
+            </div>
+            <div class="footer_section_kx7m">
+                <h4>Legal</h4>
+                <a href="#" onclick="openModal('privacyModal'); return false;">Privacy Policy</a>
+                <a href="#" onclick="openModal('termsModal'); return false;">Terms of Service</a>
+                <p style="margin-top: 1rem; font-size: 0.9rem;">© 2024 TurboxHome Catering. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Policy Modal -->
+    <div id="privacyModal" class="modal_kx7m">
+        <div class="modal_content_kx7m">
+            <span class="close_kx7m" onclick="closeModal('privacyModal')">&times;</span>
+            <h2>Privacy Policy</h2>
+            
+            <h3>1. Information We Collect</h3>
+            <p>TurboxHome Catering collects information you provide directly to us, such as when you request a quote, book an event, or contact us with inquiries. This may include your name, email address, phone number, event details, dietary requirements, and payment information.</p>
+
+            <h3>2. How We Use Your Information</h3>
+            <p>We use the information we collect to:</p>
+            <ul>
+                <li>Process and fulfill your catering requests</li>
+                <li>Communicate with you about your event</li>
+                <li>Provide customer support and respond to inquiries</li>
+                <li>Send promotional materials and updates (with your consent)</li>
+                <li>Improve our services and website</li>
+                <li>Comply with legal obligations</li>
+            </ul>
+
+            <h3>3. Information Sharing</h3>
+            <p>We do not sell, trade, or rent your personal information to third parties. We may share information with trusted service providers who assist us in operating our website and conducting our business, subject to confidentiality agreements.</p>
+
+            <h3>4. Data Security</h3>
+            <p>We implement appropriate security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet is 100% secure.</p>
+
+            <h3>5. Cookies and Tracking</h3>
+            <p>Our website may use cookies to enhance your browsing experience. You can control cookie settings through your browser preferences. We do not use tracking technologies for behavioral advertising.</p>
+
+            <h3>6. Your Rights</h3>
+            <p>You have the right to access, update, or delete your personal information. To exercise these rights, please contact us at info@turboxhomecatering.com with your request.</p>
+
+            <h3>7. Changes to This Policy</h3>
+            <p>We may update this privacy policy periodically. We will notify you of significant changes by posting the updated policy on our website with a revised effective date.</p>
+
+            <h3>8. Contact Us</h3>
+            <p>If you have questions about this privacy policy or our privacy practices, please contact us at:</p>
+            <p>Email: info@turboxhomecatering.com<br>
+            Phone: <a href="tel:+15551234567">+1 (555) 123-4567</a><br>
+            Address: 1247 Culinary Lane, Food District, FD 45678</p>
+
+            <p><strong>Effective Date:</strong> January 1, 2024</p>
+        </div>
+    </div>
+
+    <!-- Terms of Service Modal -->
+    <div id="termsModal" class="modal_kx7m">
+        <div class="modal_content_kx7m">
+            <span class="close_kx7m" onclick="closeModal('termsModal')">&times;</span>
+            <h2>Terms of Service</h2>
+
+            <h3>1. Agreement to Terms</h3>
+            <p>By accessing and using the TurboxHome Catering website and services, you agree to be bound by these Terms of Service. If you do not agree to abide by the above, please do not use this service.</p>
+
+            <h3>2. Use License</h3>
+            <p>Permission is granted to temporarily download one copy of the materials (information or software) on TurboxHome Catering's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
+            <ul>
+                <li>Modify or copy the materials</li>
+                <li>Use the materials for any commercial purpose or for any public display</li>
+                <li>Attempt to decompile or reverse engineer any software contained on the website</li>
+                <li>Remove any copyright or other proprietary notations from the materials</li>
+                <li>Transfer the materials to another person or "mirror" the materials on any other server</li>
+            </ul>
+
+            <h3>3. Disclaimer</h3>
+            <p>The materials on TurboxHome Catering's website are provided on an 'as is' basis. TurboxHome Catering makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</p>
+
+            <h3>4. Limitations</h3>
+            <p>In no event shall TurboxHome Catering or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on TurboxHome Catering's website.</p>
+
+            <h3>5. Accuracy of Materials</h3>
+            <p>The materials appearing on TurboxHome Catering's website could include technical, typographical, or photographic errors. TurboxHome Catering does not warrant that any of the materials on its website are accurate, complete, or current. TurboxHome Catering may make changes to the materials contained on its website at any time without notice.</p>
+
+            <h3>6. Links</h3>
+            <p>TurboxHome Catering has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by TurboxHome Catering of the site. Use of any such linked website is at the user's own risk.</p>
+
+            <h3>7. Modifications</h3>
+            <p>TurboxHome Catering may revise these terms of service for its website at any time without notice. By using this website, you are agreeing to be bound by the then current version of these terms of service.</p>
+
+            <h3>8. Governing Law</h3>
+            <p>These terms and conditions are governed by and construed in accordance with the laws of the jurisdiction in which TurboxHome Catering operates, and you irrevocably submit to the exclusive jurisdiction of the courts in that location.</p>
+
+            <h3>9. Catering Services Terms</h3>
+            <p>All catering bookings are subject to a signed contract specifying event details, menu selections, pricing, and payment terms. A deposit is required to secure your event date. Cancellations must be made at least 14 days prior to the event for a full refund of the deposit.</p>
+
+            <h3>10. Contact Information</h3>
+            <p>If you have any questions about these Terms of Service, please contact us at:</p>
+            <p>Email: info@turboxhomecatering.com<br>
+            Phone: <a href="tel:+15551234567">+1 (555) 123-4567</a><br>
+            Address: 1247 Culinary Lane, Food District, FD 45678</p>
+
+            <p><strong>Effective Date:</strong> January 1, 2024</p>
+        </div>
+    </div>
+
+    <script>
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = "block";
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal_kx7m')) {
+                event.target.style.display = "none";
+            }
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && !href.includes('onclick')) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
